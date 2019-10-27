@@ -461,6 +461,10 @@ footer {
     .help li {
         width: 100%;
     }
+    
+    .help ul li:nth-child(even) {
+        margin-left: 0px;
+    }
 
     .requirement, .offer {
         height: auto;
@@ -526,10 +530,6 @@ footer {
 
     nav a, nav a:first-child {
         margin: 10px;
-    }
-
-    .help ul li:nth-child(even) {
-        margin-left: 0px;
     }
 
     .offer__items ul,
